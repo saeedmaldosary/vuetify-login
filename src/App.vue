@@ -24,7 +24,7 @@ prepend-icon="mdi-lock"
   id="password"
   name="password"
   label="Password" 
-  :type="show ? 'text':'password'"
+  :type="show ? 'text':'Password'"
   :append-icon="show ?'mdi-eye':'mdi-eye-off'" 
   @click:append="show=!show"
 
